@@ -24,7 +24,7 @@ public interface ReservationRepository extends JpaRepository<ReservationVO, Long
 	@Query("SELECT a FROM RESERVATION a WHERE a.start_time = ?1 AND a.tid = ?2 AND a.rank > ?3 ORDER BY a.rank asc")//확인필요
 	public List<ReservationVO> findAllReservationBytimeAndtidAndRank(String start_time, int tid, int rank);
 	
-	@Query("SELECT a FROM RESERVATION a WHERE a.uid = ?1 AND a.isdeleted = 0" )
+	@Query("SELECT a FROM RESERVATION a WHERE a.uid = ?1 AND a.isdeleted = 0 ORDER BY a.start_time asc" )
 	public List<ReservationVO> findAllByuidForUser(int tid);
 	
 	@Transactional
