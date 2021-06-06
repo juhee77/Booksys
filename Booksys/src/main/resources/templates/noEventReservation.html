@@ -37,6 +37,8 @@
 					<script>
 						let date = new Date();
 						date.setDate(date.getDate() + 1);
+						//utc시간과 맞추기 위해서, toISOString()하면 출력시간이 iso값으로 나옴 -> 한국시간으로
+						date.setHours((date.getHours()+9));
 						let today = date.toISOString().substring(0, 10);
 						//다음날 예약가능
 						document.getElementById('date').value = today

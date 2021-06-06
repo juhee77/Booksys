@@ -159,11 +159,14 @@ input[type="checkbox"]:disabled, input[type="radio"]:disabled {
    var oid=/*[[${list.oid}]]*/null;
 	var oidDate=/*[[${list.start_time}]]*/null;
 	var date=new Date(oidDate.substr(0,10));
+	date.setHours("00");
+	today.setHours("00");
+
 	
 	//alert("date   "+typeof(date)+"today   "+typeof(today));
 	
 	if (date.getTime()<=today.getTime()){
-		//alert(oid+"    \n"+today+oidDate);
+		//alert(oid+"    \n"+today+"\ndate"+date);
 		//alert("true");
 		$("#"+oid).attr("disabled", true); 
 		 
