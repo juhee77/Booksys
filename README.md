@@ -19,15 +19,16 @@
 협업도구 : <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"> 
 <img src="https://img.shields.io/badge/Google Drive-4285F4?style=for-the-badge&logo=Google Drive&logoColor=white"><br>
 
-## 🌞 소프트웨어 구성도 
+## 🎨 소프트웨어 구성도 
 ![image](https://user-images.githubusercontent.com/51548333/197350663-418369a6-6e54-4261-92fb-e86a1687e270.png)
 
 ## 🎨요구사항 명세서
 <img width="1239" alt="스크린샷 2022-11-13 오전 1 59 27" src="https://user-images.githubusercontent.com/51548333/201485548-52058a7b-1618-45c6-9317-67b90814ac73.png">
 
-## ER 다이어 그램
-<img width="779" alt="image" src="https://user-images.githubusercontent.com/51548333/201485219-02fe6ef6-59bf-45e2-befd-bdedb1060f2e.png">
-## 클래스 다이어 그램
+## 🎨 ER 다이어 그램
+<img width="779" alt="image" src="https://user-images.githubusercontent.com/51548333/201485219-02fe6ef6-59bf-45e2-befd-bdedb1060f2e.png">  
+
+## 🎨 클래스 다이어 그램
 <img width="591" alt="image" src="https://user-images.githubusercontent.com/51548333/201485252-b6a1975e-15af-41d2-986e-6e80ef412d36.png">
 
 ## 🎞 개발 화면
